@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet, TouchableOpacity } from 'react-native';
-import Background from '../assets/background.jpg';
 import axios from 'axios';
 
 const QuoteGenerator = ({ refresh }) => {
@@ -49,7 +48,7 @@ const generatorStyles = StyleSheet.create({
   quote: {
     marginHorizontal: 16,
     marginVertical: 8,
-    fontSize: 24,
+    fontSize: 22,
     letterSpacing: 2,
     fontFamily: 'Vollkorn',
     fontStyle: 'italic',
@@ -57,7 +56,7 @@ const generatorStyles = StyleSheet.create({
     color: '#322E30',
   },
   author: {
-    fontSize: 20,
+    fontSize: 18,
     fontFamily: 'Vollkorn',
     fontWeight: '700',
     textAlign: 'right',
@@ -67,7 +66,7 @@ const generatorStyles = StyleSheet.create({
   button: {
     backgroundColor: '#FFC0D390',
     width: '90%',
-    padding: 20,
+    padding: 18,
     borderRadius: 30,
     marginTop: 32,
   },

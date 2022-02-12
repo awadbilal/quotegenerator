@@ -3,11 +3,11 @@
 This repositroy contains the code developed as part of a coding challenge provided to me, its as simple as using an API to generate random quotes.
 
 ## Time Stamps
-
 I started developing this application at 7:14 PM and finished it same day at 8:20 PM along with final modifications.
 
-## Development process
+## [Click here to checkout the code on Expo and to test it out](https://snack.expo.dev/@awadbilal/quote-generator)
 
+## Development process
 I statrted with a standard styled React Native application in which i followed this steps:
 
 - Removed everything unnecessary from the App.js component

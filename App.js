@@ -7,8 +7,6 @@ import {
   ScrollView,
 } from 'react-native';
 import Constants from 'expo-constants';
-import { Font } from 'expo';
-import Background from './assets/background.jpg';
 import QuoteGenerator from './components/QuoteGenerator';
 import Header from './components/Header';
 
@@ -49,7 +47,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     paddingTop: Constants.statusBarHeight,
-    background: Background,
     backgroundColor: '#FDEFF4',
     padding: 8,
   },

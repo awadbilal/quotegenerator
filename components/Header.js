@@ -16,7 +16,7 @@ const Header = () => {
 const headerStyles = StyleSheet.create({
   title: {
     fontFamily: 'Montserrat',
-    fontSize: 24,
+    fontSize: 22,
     fontWeight: '700',
     textAlign: 'center',
     marginBottom: 32,
